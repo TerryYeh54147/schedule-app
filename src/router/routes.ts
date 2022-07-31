@@ -4,11 +4,11 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
+    children: [{ path: '', component: () => import('pages/HomePage.vue') }],
   }, {
     path: '/diagram',
     component: () => import('layouts/MainLayout.vue'),
-    children: [{ path: '', component: () => import('pages/DiagramPage.vue') }],
+    children: [{ path: '', component: () => import('src/pages/FlowDiagramPage.vue') }],
   },
 
   // Always leave this as last one,
