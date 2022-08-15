@@ -14,7 +14,7 @@ import _ from 'lodash';
 import { Range } from 'src/models/models';
 import type { Elements } from '@braks/vue-flow';
 import FlowDiagram from 'components/FlowDiagram.vue';
-import  store, {useStore}  from '../store/index';
+import  store, {useStore}  from '@/store/index';
 
 const elements = reactive<Elements>([]);
 

@@ -5,7 +5,7 @@ import {
   createWebHashHistory,
   createWebHistory,
 } from 'vue-router';
-import { StateInterface } from '../store';
+import { StateInterface } from '@/store';
 
 import routes from './routes';
 
